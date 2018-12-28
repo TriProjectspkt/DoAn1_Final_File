@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.75" name="Linq">
+  <DataContextMoniker Name="/LinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9164bccc-fad5-4567-a667-c2b51e1e1a29" absoluteBounds="3.5, 5.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/LinqDataContext/CaTrongNgay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5cbe439a-c032-4355-b779-fbefea80ac61" absoluteBounds="3.515, 5.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="17ae2506-a834-45d1-8a19-677f35ad30d7" absoluteBounds="0.75, 4.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/LinqDataContext/DeTai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47f748f2-6c15-4d05-a3a5-48d6fe62b866" absoluteBounds="0.765, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30cca620-2dd1-42ff-83bb-a12c420194dd" absoluteBounds="0.75, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/LinqDataContext/GiangVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="edb69192-b1a4-401b-977e-826d3c375b30" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aafd13f8-88c1-483d-a99b-4fed02b21e42" absoluteBounds="6.25, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LinqDataContext/Lich" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe53fe48-6544-40ce-9e96-176b7fae9069" absoluteBounds="6.265, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec5475e1-c582-40a2-a767-ef914b5d0aa4" absoluteBounds="0.75, 6.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LinqDataContext/Nhom" />
+      <nestedChildShapes>
+        <elementListCompartment Id="257651cb-58fe-4f99-bbb9-49e76d084003" absoluteBounds="0.765, 6.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/LinqDataContext/PhanCong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="127a818a-ebcd-4743-9fe6-01edd4a45413" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4872c7e5-385e-436c-9d29-617724767b94" absoluteBounds="3.5, 7.125, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/LinqDataContext/PhongHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa8d1ff7-c07a-48e9-af21-75eed2f3cee1" absoluteBounds="3.515, 7.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 5.72199625651042); (7.25 : 5.72199625651042); (7.25 : 2.95359537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/CaTrongNgay/CaTrongNgay_Lich" />
+      <nodes>
+        <classShapeMoniker Id="9164bccc-fad5-4567-a667-c2b51e1e1a29" />
+        <classShapeMoniker Id="aafd13f8-88c1-483d-a99b-4fed02b21e42" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.16429768880208); (6.25 : 2.16429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/PhanCong/PhanCong_Lich" />
+      <nodes>
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+        <classShapeMoniker Id="aafd13f8-88c1-483d-a99b-4fed02b21e42" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.375); (3.125 : 4); (3.125 : 2.27005126953125); (3.5 : 2.27005126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/DeTai/DeTai_PhanCong" />
+      <nodes>
+        <classShapeMoniker Id="17ae2506-a834-45d1-8a19-677f35ad30d7" />
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.57252563476563); (3.5 : 1.57252563476563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/GiangVien/GiangVien_PhanCong" />
+      <nodes>
+        <classShapeMoniker Id="30cca620-2dd1-42ff-83bb-a12c420194dd" />
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.96757690429688); (3.5 : 2.96757690429688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/GiangVien/GiangVien_PhanCong1" />
+      <nodes>
+        <classShapeMoniker Id="30cca620-2dd1-42ff-83bb-a12c420194dd" />
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.92128845214844); (3.5 : 1.92128845214844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/GiangVien/GiangVien_PhanCong2" />
+      <nodes>
+        <classShapeMoniker Id="30cca620-2dd1-42ff-83bb-a12c420194dd" />
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.56314281510417); (3.3125 : 6.00064281510417); (3.3125 : 2.61881408691406); (3.5 : 2.61881408691406)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/Nhom/Nhom_PhanCong" />
+      <nodes>
+        <classShapeMoniker Id="ec5475e1-c582-40a2-a767-ef914b5d0aa4" />
+        <classShapeMoniker Id="7bed6690-e4fb-4322-90d2-906dc33bc4e2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.81814697265625); (6.7187475 : 7.81814697265625); (6.7187475 : 2.95359537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqDataContext/PhongHoc/PhongHoc_Lich" />
+      <nodes>
+        <classShapeMoniker Id="4872c7e5-385e-436c-9d29-617724767b94" />
+        <classShapeMoniker Id="aafd13f8-88c1-483d-a99b-4fed02b21e42" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
